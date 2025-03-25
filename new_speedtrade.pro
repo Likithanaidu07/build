@@ -14,11 +14,9 @@ CONFIG += no_batch
 CONFIG += c++17
 
 #manually Increment Version Before Build
-VERSION = 1.0.18
+VERSION = 1.0.16
 TARGET = New_Speedtrade_$${VERSION}
 
-version_script = $$PWD/increment_version.py
-QMAKE_PRE_LINK = python $$version_script
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
