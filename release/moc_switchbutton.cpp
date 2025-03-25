@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'switchbutton.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.6.3)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -22,7 +22,7 @@ QT_BEGIN_MOC_NAMESPACE
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'switchbutton.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.6.3. It"
+#error "This file was generated using the moc from 6.5.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -38,7 +38,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSSwitchButtonENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSSwitchButtonENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSSwitchButtonENDCLASS = QtMocHelpers::stringData(
     "SwitchButton",
     "valueChanged",
     "",
@@ -73,7 +73,7 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSSwitchButtonENDCLASS_t qt_meta_
 Q_CONSTINIT static const uint qt_meta_data_CLASSSwitchButtonENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        1,   14, // methods
@@ -169,7 +169,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSSwitchButtonSCOPESwitchBackgroundENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSSwitchButtonSCOPESwitchBackgroundENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSSwitchButtonSCOPESwitchBackgroundENDCLASS = QtMocHelpers::stringData(
     "SwitchButton::SwitchBackground"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
@@ -192,7 +192,7 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSSwitchButtonSCOPESwitchBackgrou
 Q_CONSTINIT static const uint qt_meta_data_CLASSSwitchButtonSCOPESwitchBackgroundENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -248,7 +248,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSSwitchButtonSCOPESwitchCircleENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSSwitchButtonSCOPESwitchCircleENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSSwitchButtonSCOPESwitchCircleENDCLASS = QtMocHelpers::stringData(
     "SwitchButton::SwitchCircle"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
@@ -271,7 +271,7 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSSwitchButtonSCOPESwitchCircleEN
 Q_CONSTINIT static const uint qt_meta_data_CLASSSwitchButtonSCOPESwitchCircleENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods

@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'watch_data_list_item.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.6.3)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -21,7 +21,7 @@ QT_BEGIN_MOC_NAMESPACE
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'watch_data_list_item.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.6.3. It"
+#error "This file was generated using the moc from 6.5.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -37,7 +37,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSwatch_Data_List_ItemENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSwatch_Data_List_ItemENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSwatch_Data_List_ItemENDCLASS = QtMocHelpers::stringData(
     "watch_Data_List_Item",
     "add_watch_item_to_main_win_signal",
     "",
@@ -80,7 +80,7 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSwatch_Data_List_ItemENDCLASS_t 
 Q_CONSTINIT static const uint qt_meta_data_CLASSwatch_Data_List_ItemENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        2,   14, // methods

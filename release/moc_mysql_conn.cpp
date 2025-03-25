@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'mysql_conn.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.6.3)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -22,7 +22,7 @@ QT_BEGIN_MOC_NAMESPACE
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'mysql_conn.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.6.3. It"
+#error "This file was generated using the moc from 6.5.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -38,7 +38,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSmysql_connENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSmysql_connENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSmysql_connENDCLASS = QtMocHelpers::stringData(
     "mysql_conn",
     "display_log_text_signal",
     "",
@@ -85,7 +85,7 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSmysql_connENDCLASS_t qt_meta_st
 Q_CONSTINIT static const uint qt_meta_data_CLASSmysql_connENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        2,   14, // methods

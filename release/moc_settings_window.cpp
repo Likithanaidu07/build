@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'settings_window.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.6.3)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -22,7 +22,7 @@ QT_BEGIN_MOC_NAMESPACE
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'settings_window.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.6.3. It"
+#error "This file was generated using the moc from 6.5.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -38,7 +38,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSShortcutDelegateENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSShortcutDelegateENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSShortcutDelegateENDCLASS = QtMocHelpers::stringData(
     "ShortcutDelegate"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
@@ -61,7 +61,7 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSShortcutDelegateENDCLASS_t qt_m
 Q_CONSTINIT static const uint qt_meta_data_CLASSShortcutDelegateENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -117,18 +117,19 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSSettings_WindowENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSSettings_WindowENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSSettings_WindowENDCLASS = QtMocHelpers::stringData(
     "Settings_Window",
     "updateHotKeysSignal",
     "",
     "on_pushButtonSaveHotKeys_clicked",
     "treeviewHotKeyItemEdited",
     "QStandardItem*",
-    "item"
+    "item",
+    "on_pushButtonChangeFont_clicked"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSSettings_WindowENDCLASS_t {
-    uint offsetsAndSizes[14];
+    uint offsetsAndSizes[16];
     char stringdata0[16];
     char stringdata1[20];
     char stringdata2[1];
@@ -136,6 +137,7 @@ struct qt_meta_stringdata_CLASSSettings_WindowENDCLASS_t {
     char stringdata4[25];
     char stringdata5[15];
     char stringdata6[5];
+    char stringdata7[32];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSSettings_WindowENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -147,7 +149,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSSettings_WindowENDCLASS_t qt_me
         QT_MOC_LITERAL(37, 32),  // "on_pushButtonSaveHotKeys_clicked"
         QT_MOC_LITERAL(70, 24),  // "treeviewHotKeyItemEdited"
         QT_MOC_LITERAL(95, 14),  // "QStandardItem*"
-        QT_MOC_LITERAL(110, 4)   // "item"
+        QT_MOC_LITERAL(110, 4),  // "item"
+        QT_MOC_LITERAL(115, 31)   // "on_pushButtonChangeFont_clicked"
     },
     "Settings_Window",
     "updateHotKeysSignal",
@@ -155,7 +158,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSSettings_WindowENDCLASS_t qt_me
     "on_pushButtonSaveHotKeys_clicked",
     "treeviewHotKeyItemEdited",
     "QStandardItem*",
-    "item"
+    "item",
+    "on_pushButtonChangeFont_clicked"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -164,10 +168,10 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSSettings_WindowENDCLASS_t qt_me
 Q_CONSTINIT static const uint qt_meta_data_CLASSSettings_WindowENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
-       3,   14, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -175,11 +179,12 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSSettings_WindowENDCLASS[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   32,    2, 0x06,    1 /* Public */,
+       1,    1,   38,    2, 0x06,    1 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       3,    0,   35,    2, 0x08,    3 /* Private */,
-       4,    1,   36,    2, 0x08,    4 /* Private */,
+       3,    0,   41,    2, 0x08,    3 /* Private */,
+       4,    1,   42,    2, 0x08,    4 /* Private */,
+       7,    0,   45,    2, 0x08,    6 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QStringList,    2,
@@ -187,6 +192,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSSettings_WindowENDCLASS[] = {
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void, 0x80000000 | 5,    6,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -207,7 +213,9 @@ Q_CONSTINIT const QMetaObject Settings_Window::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'treeviewHotKeyItemEdited'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<QStandardItem *, std::false_type>
+        QtPrivate::TypeAndForceComplete<QStandardItem *, std::false_type>,
+        // method 'on_pushButtonChangeFont_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
 } };
@@ -221,6 +229,7 @@ void Settings_Window::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
         case 0: _t->updateHotKeysSignal((*reinterpret_cast< std::add_pointer_t<QStringList>>(_a[1]))); break;
         case 1: _t->on_pushButtonSaveHotKeys_clicked(); break;
         case 2: _t->treeviewHotKeyItemEdited((*reinterpret_cast< std::add_pointer_t<QStandardItem*>>(_a[1]))); break;
+        case 3: _t->on_pushButtonChangeFont_clicked(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -254,13 +263,13 @@ int Settings_Window::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 4;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
+        if (_id < 4)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 3;
+        _id -= 4;
     }
     return _id;
 }

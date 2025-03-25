@@ -14,7 +14,7 @@ CONFIG += no_batch
 CONFIG += c++17
 
 #manually Increment Version Before Build
-VERSION = 1.0.34
+VERSION = 1.0.18
 TARGET = New_Speedtrade_$${VERSION}
 
 version_script = $$PWD/increment_version.py

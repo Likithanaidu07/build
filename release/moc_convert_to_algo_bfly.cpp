@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'convert_to_algo_bfly.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.6.3)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -22,7 +22,7 @@ QT_BEGIN_MOC_NAMESPACE
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'convert_to_algo_bfly.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.6.3. It"
+#error "This file was generated using the moc from 6.5.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -38,7 +38,7 @@ namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSadd_algo_btflyENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSadd_algo_btflyENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_CLASSadd_algo_btflyENDCLASS = QtMocHelpers::stringData(
     "add_algo_btfly",
     "progressSignal",
     "",
@@ -93,7 +93,7 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSadd_algo_btflyENDCLASS_t qt_met
 Q_CONSTINIT static const uint qt_meta_data_CLASSadd_algo_btflyENDCLASS[] = {
 
  // content:
-      12,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        5,   14, // methods
