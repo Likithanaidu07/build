@@ -211,6 +211,8 @@ LIBS += -L"$$_PRO_FILE_PWD_/lzo-2.10" -llzo2
 
 INCLUDEPATH += ./lzo-2.10/include/
 INCLUDEPATH += ./lzo-2.10/
+NCLUDEPATH += C:/Users/Tester/QtADS/include
+LIBS += -LC:/Users/Tester/QtADS/lib -lqtadvanceddocking-qt6
 
 
 
