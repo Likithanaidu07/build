@@ -3,6 +3,7 @@ VERSION = New_Speedtrade_$${VERSION}..1
 VERSION = New_Speedtrade_$${VERSION}..1
 VERSION = New_Speedtrade_$${VERSION}..1
 VERSION = New_Speedtrade_$${VERSION}..1
+VERSION = New_Speedtrade_$${VERSION}..1
 QT  += core gui
 QT+=sql
 QT += network
