@@ -18,7 +18,7 @@ CONFIG += no_batch
 CONFIG += c++17
 
 #manually Increment Version Before Build
-VERSION = 1.0.16
+VERSION = 1.0.17
 TARGET = New_Speedtrade_$${VERSION}
 
 
